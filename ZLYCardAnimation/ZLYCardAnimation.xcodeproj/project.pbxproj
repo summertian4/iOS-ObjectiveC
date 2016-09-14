@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F27AB40EDB86B4FA3CC779A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED4609F9AA57EF29638C742 /* Pods.framework */; };
+		820BA7261D89243C00E2FE8C /* ZLYCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820BA7251D89243C00E2FE8C /* ZLYCardViewController.m */; };
+		820BA7291D89244E00E2FE8C /* ZLYCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 820BA7281D89244E00E2FE8C /* ZLYCardView.m */; };
+		820BA72C1D89245A00E2FE8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 820BA72B1D89245A00E2FE8C /* AppDelegate.m */; };
+		820BA72F1D89246B00E2FE8C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 820BA72D1D89246B00E2FE8C /* Info.plist */; };
+		820BA7301D89246B00E2FE8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 820BA72E1D89246B00E2FE8C /* main.m */; };
+		820BA7321D89247800E2FE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820BA7311D89247800E2FE8C /* Assets.xcassets */; };
+		820BA7371D8924BC00E2FE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820BA7331D8924BC00E2FE8C /* LaunchScreen.storyboard */; };
+		820BA7381D8924BC00E2FE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820BA7351D8924BC00E2FE8C /* Main.storyboard */; };
+		82262BF41D597D9A00EB1E11 /* ZLYCardAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82262BF31D597D9A00EB1E11 /* ZLYCardAnimationTests.m */; };
+		82262BFF1D597D9A00EB1E11 /* ZLYCardAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82262BFE1D597D9A00EB1E11 /* ZLYCardAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82262BF01D597D9A00EB1E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82262BCE1D597D9900EB1E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82262BD51D597D9900EB1E11;
+			remoteInfo = CardAnimation;
+		};
+		82262BFB1D597D9A00EB1E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82262BCE1D597D9900EB1E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82262BD51D597D9900EB1E11;
+			remoteInfo = CardAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		155D75FEDF56982646D49DCE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED4609F9AA57EF29638C742 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		820BA7231D89242B00E2FE8C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ZLYCardAnimation/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		820BA7241D89243C00E2FE8C /* ZLYCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLYCardViewController.h; path = ZLYCardAnimation/Controller/ZLYCardViewController.h; sourceTree = SOURCE_ROOT; };
+		820BA7251D89243C00E2FE8C /* ZLYCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLYCardViewController.m; path = ZLYCardAnimation/Controller/ZLYCardViewController.m; sourceTree = SOURCE_ROOT; };
+		820BA7271D89244E00E2FE8C /* ZLYCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLYCardView.h; path = ZLYCardAnimation/View/ZLYCardView.h; sourceTree = SOURCE_ROOT; };
+		820BA7281D89244E00E2FE8C /* ZLYCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLYCardView.m; path = ZLYCardAnimation/View/ZLYCardView.m; sourceTree = SOURCE_ROOT; };
+		820BA72A1D89245A00E2FE8C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ZLYCardAnimation/Other/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		820BA72B1D89245A00E2FE8C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ZLYCardAnimation/Other/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		820BA72D1D89246B00E2FE8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ZLYCardAnimation/Info.plist; sourceTree = SOURCE_ROOT; };
+		820BA72E1D89246B00E2FE8C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ZLYCardAnimation/main.m; sourceTree = SOURCE_ROOT; };
+		820BA7311D89247800E2FE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ZLYCardAnimation/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		820BA7341D8924BC00E2FE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ZLYCardAnimation/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		820BA7361D8924BC00E2FE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ZLYCardAnimation/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		82262BD61D597D9900EB1E11 /* ZLYCardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLYCardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82262BEF1D597D9A00EB1E11 /* ZLYCardAnimation.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLYCardAnimation.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82262BF31D597D9A00EB1E11 /* ZLYCardAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLYCardAnimationTests.m; sourceTree = "<group>"; };
+		82262BF51D597D9A00EB1E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82262BFA1D597D9A00EB1E11 /* ZLYCardAnimation.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLYCardAnimation.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82262BFE1D597D9A00EB1E11 /* ZLYCardAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLYCardAnimationUITests.m; sourceTree = "<group>"; };
+		82262C001D597D9A00EB1E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46E6BE0F0325FF3CFB56191 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82262BD31D597D9900EB1E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F27AB40EDB86B4FA3CC779A /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82262BEC1D597D9A00EB1E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82262BF71D597D9A00EB1E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7207FEB3E8671F275458AF6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ED4609F9AA57EF29638C742 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82262BCD1D597D9900EB1E11 = {
+			isa = PBXGroup;
+			children = (
+				82262BD81D597D9900EB1E11 /* ZLYCardAnimation */,
+				82262BF21D597D9A00EB1E11 /* ZLYCardAnimationTests */,
+				82262BFD1D597D9A00EB1E11 /* ZLYCardAnimationUITests */,
+				82262BD71D597D9900EB1E11 /* Products */,
+				AF3CCDB0A0D4849899CD7061 /* Pods */,
+				7207FEB3E8671F275458AF6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82262BD71D597D9900EB1E11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82262BD61D597D9900EB1E11 /* ZLYCardAnimation.app */,
+				82262BEF1D597D9A00EB1E11 /* ZLYCardAnimation.xctest */,
+				82262BFA1D597D9A00EB1E11 /* ZLYCardAnimation.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82262BD81D597D9900EB1E11 /* ZLYCardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				82262C141D597F2D00EB1E11 /* Controller */,
+				82262C101D597F0200EB1E11 /* View */,
+				82262C0C1D597EF400EB1E11 /* Other */,
+				82262BD91D597D9900EB1E11 /* Supporting Files */,
+			);
+			name = ZLYCardAnimation;
+			path = CardAnimation;
+			sourceTree = "<group>";
+		};
+		82262BD91D597D9900EB1E11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				820BA7311D89247800E2FE8C /* Assets.xcassets */,
+				820BA72D1D89246B00E2FE8C /* Info.plist */,
+				820BA72E1D89246B00E2FE8C /* main.m */,
+				820BA7231D89242B00E2FE8C /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82262BF21D597D9A00EB1E11 /* ZLYCardAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				82262BF31D597D9A00EB1E11 /* ZLYCardAnimationTests.m */,
+				82262BF51D597D9A00EB1E11 /* Info.plist */,
+			);
+			name = ZLYCardAnimationTests;
+			path = CardAnimationTests;
+			sourceTree = "<group>";
+		};
+		82262BFD1D597D9A00EB1E11 /* ZLYCardAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82262BFE1D597D9A00EB1E11 /* ZLYCardAnimationUITests.m */,
+				82262C001D597D9A00EB1E11 /* Info.plist */,
+			);
+			name = ZLYCardAnimationUITests;
+			path = CardAnimationUITests;
+			sourceTree = "<group>";
+		};
+		82262C0C1D597EF400EB1E11 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				820BA72A1D89245A00E2FE8C /* AppDelegate.h */,
+				820BA72B1D89245A00E2FE8C /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		82262C101D597F0200EB1E11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				820BA7331D8924BC00E2FE8C /* LaunchScreen.storyboard */,
+				820BA7351D8924BC00E2FE8C /* Main.storyboard */,
+				820BA7271D89244E00E2FE8C /* ZLYCardView.h */,
+				820BA7281D89244E00E2FE8C /* ZLYCardView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82262C141D597F2D00EB1E11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				820BA7241D89243C00E2FE8C /* ZLYCardViewController.h */,
+				820BA7251D89243C00E2FE8C /* ZLYCardViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF3CCDB0A0D4849899CD7061 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				155D75FEDF56982646D49DCE /* Pods.debug.xcconfig */,
+				A46E6BE0F0325FF3CFB56191 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82262BD51D597D9900EB1E11 /* ZLYCardAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82262C031D597D9A00EB1E11 /* Build configuration list for PBXNativeTarget "ZLYCardAnimation" */;
+			buildPhases = (
+				2D39323FF27282FCC9355B34 /* Check Pods Manifest.lock */,
+				82262BD21D597D9900EB1E11 /* Sources */,
+				82262BD31D597D9900EB1E11 /* Frameworks */,
+				82262BD41D597D9900EB1E11 /* Resources */,
+				75041BE58246530B84EBFC70 /* Embed Pods Frameworks */,
+				24F79D436127411D4EF1749B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLYCardAnimation;
+			productName = CardAnimation;
+			productReference = 82262BD61D597D9900EB1E11 /* ZLYCardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82262BEE1D597D9A00EB1E11 /* ZLYCardAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82262C061D597D9A00EB1E11 /* Build configuration list for PBXNativeTarget "ZLYCardAnimationTests" */;
+			buildPhases = (
+				82262BEB1D597D9A00EB1E11 /* Sources */,
+				82262BEC1D597D9A00EB1E11 /* Frameworks */,
+				82262BED1D597D9A00EB1E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82262BF11D597D9A00EB1E11 /* PBXTargetDependency */,
+			);
+			name = ZLYCardAnimationTests;
+			productName = CardAnimationTests;
+			productReference = 82262BEF1D597D9A00EB1E11 /* ZLYCardAnimation.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82262BF91D597D9A00EB1E11 /* ZLYCardAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82262C091D597D9A00EB1E11 /* Build configuration list for PBXNativeTarget "ZLYCardAnimationUITests" */;
+			buildPhases = (
+				82262BF61D597D9A00EB1E11 /* Sources */,
+				82262BF71D597D9A00EB1E11 /* Frameworks */,
+				82262BF81D597D9A00EB1E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82262BFC1D597D9A00EB1E11 /* PBXTargetDependency */,
+			);
+			name = ZLYCardAnimationUITests;
+			productName = CardAnimationUITests;
+			productReference = 82262BFA1D597D9A00EB1E11 /* ZLYCardAnimation.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82262BCE1D597D9900EB1E11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "周凌宇";
+				TargetAttributes = {
+					82262BD51D597D9900EB1E11 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					82262BEE1D597D9A00EB1E11 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 82262BD51D597D9900EB1E11;
+					};
+					82262BF91D597D9A00EB1E11 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 82262BD51D597D9900EB1E11;
+					};
+				};
+			};
+			buildConfigurationList = 82262BD11D597D9900EB1E11 /* Build configuration list for PBXProject "ZLYCardAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82262BCD1D597D9900EB1E11;
+			productRefGroup = 82262BD71D597D9900EB1E11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82262BD51D597D9900EB1E11 /* ZLYCardAnimation */,
+				82262BEE1D597D9A00EB1E11 /* ZLYCardAnimationTests */,
+				82262BF91D597D9A00EB1E11 /* ZLYCardAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82262BD41D597D9900EB1E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820BA7371D8924BC00E2FE8C /* LaunchScreen.storyboard in Resources */,
+				820BA72F1D89246B00E2FE8C /* Info.plist in Resources */,
+				820BA7321D89247800E2FE8C /* Assets.xcassets in Resources */,
+				820BA7381D8924BC00E2FE8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82262BED1D597D9A00EB1E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82262BF81D597D9A00EB1E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24F79D436127411D4EF1749B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D39323FF27282FCC9355B34 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75041BE58246530B84EBFC70 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82262BD21D597D9900EB1E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820BA7301D89246B00E2FE8C /* main.m in Sources */,
+				820BA7261D89243C00E2FE8C /* ZLYCardViewController.m in Sources */,
+				820BA7291D89244E00E2FE8C /* ZLYCardView.m in Sources */,
+				820BA72C1D89245A00E2FE8C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82262BEB1D597D9A00EB1E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82262BF41D597D9A00EB1E11 /* ZLYCardAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82262BF61D597D9A00EB1E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82262BFF1D597D9A00EB1E11 /* ZLYCardAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82262BF11D597D9A00EB1E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82262BD51D597D9900EB1E11 /* ZLYCardAnimation */;
+			targetProxy = 82262BF01D597D9A00EB1E11 /* PBXContainerItemProxy */;
+		};
+		82262BFC1D597D9A00EB1E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82262BD51D597D9900EB1E11 /* ZLYCardAnimation */;
+			targetProxy = 82262BFB1D597D9A00EB1E11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		820BA7331D8924BC00E2FE8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820BA7341D8924BC00E2FE8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		820BA7351D8924BC00E2FE8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820BA7361D8924BC00E2FE8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82262C011D597D9A00EB1E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82262C021D597D9A00EB1E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82262C041D597D9A00EB1E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155D75FEDF56982646D49DCE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZLYCardAnimation/PrefixHeader.pch;
+				INFOPLIST_FILE = ZLYCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.ZLYCardAnimation;
+				PRODUCT_NAME = ZLYCardAnimation;
+			};
+			name = Debug;
+		};
+		82262C051D597D9A00EB1E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46E6BE0F0325FF3CFB56191 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZLYCardAnimation/PrefixHeader.pch;
+				INFOPLIST_FILE = ZLYCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.ZLYCardAnimation;
+				PRODUCT_NAME = ZLYCardAnimation;
+			};
+			name = Release;
+		};
+		82262C071D597D9A00EB1E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.CardAnimationTests;
+				PRODUCT_NAME = ZLYCardAnimation;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLYCardAnimation.app/ZLYCardAnimation";
+			};
+			name = Debug;
+		};
+		82262C081D597D9A00EB1E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.CardAnimationTests;
+				PRODUCT_NAME = ZLYCardAnimation;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLYCardAnimation.app/ZLYCardAnimation";
+			};
+			name = Release;
+		};
+		82262C0A1D597D9A00EB1E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.CardAnimationUITests;
+				PRODUCT_NAME = ZLYCardAnimation;
+				TEST_TARGET_NAME = CardAnimation;
+			};
+			name = Debug;
+		};
+		82262C0B1D597D9A00EB1E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.CardAnimationUITests;
+				PRODUCT_NAME = ZLYCardAnimation;
+				TEST_TARGET_NAME = CardAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82262BD11D597D9900EB1E11 /* Build configuration list for PBXProject "ZLYCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82262C011D597D9A00EB1E11 /* Debug */,
+				82262C021D597D9A00EB1E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82262C031D597D9A00EB1E11 /* Build configuration list for PBXNativeTarget "ZLYCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82262C041D597D9A00EB1E11 /* Debug */,
+				82262C051D597D9A00EB1E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82262C061D597D9A00EB1E11 /* Build configuration list for PBXNativeTarget "ZLYCardAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82262C071D597D9A00EB1E11 /* Debug */,
+				82262C081D597D9A00EB1E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82262C091D597D9A00EB1E11 /* Build configuration list for PBXNativeTarget "ZLYCardAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82262C0A1D597D9A00EB1E11 /* Debug */,
+				82262C0B1D597D9A00EB1E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82262BCE1D597D9900EB1E11 /* Project object */;
+}
