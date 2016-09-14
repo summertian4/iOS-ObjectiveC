@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  CardAnimation
+//
+//  Created by 周凌宇 on 16/8/9.
+//  Copyright © 2016年 周凌宇. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <pop/POP.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "MJRefresh.h"
+#import "Masonry.h"
+
+
+#define kRandomColor [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
+
+#endif /* PrefixHeader_pch */
