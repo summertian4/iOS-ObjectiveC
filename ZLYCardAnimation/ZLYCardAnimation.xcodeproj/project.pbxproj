@@ -269,6 +269,8 @@
 				TargetAttributes = {
 					82262BD51D597D9900EB1E11 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 536WCVJEMP;
+						ProvisioningStyle = Automatic;
 					};
 					82262BEE1D597D9A00EB1E11 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -526,9 +528,12 @@
 			baseConfigurationReference = 155D75FEDF56982646D49DCE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 536WCVJEMP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ZLYCardAnimation/PrefixHeader.pch;
 				INFOPLIST_FILE = ZLYCardAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.ZLYCardAnimation;
 				PRODUCT_NAME = ZLYCardAnimation;
@@ -540,9 +545,12 @@
 			baseConfigurationReference = A46E6BE0F0325FF3CFB56191 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 536WCVJEMP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ZLYCardAnimation/PrefixHeader.pch;
 				INFOPLIST_FILE = ZLYCardAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coderfish.ios.ZLYCardAnimation;
 				PRODUCT_NAME = ZLYCardAnimation;
