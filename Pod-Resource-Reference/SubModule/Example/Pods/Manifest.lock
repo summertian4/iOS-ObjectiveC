@@ -1,0 +1,16 @@
+PODS:
+  - SubModule (0.1.0)
+
+DEPENDENCIES:
+  - SubModule (from `../`)
+
+EXTERNAL SOURCES:
+  SubModule:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SubModule: 6270f18f6a9b1c7a86dcd6e45e558adc423a526a
+
+PODFILE CHECKSUM: 333751be2a03179d5655631b8d67c858e66b70c8
+
+COCOAPODS: 1.3.1

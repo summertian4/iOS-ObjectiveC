@@ -1,0 +1,27 @@
+{
+  "name": "SubModule_Use_Bundle",
+  "version": "0.1.0",
+  "summary": "A short description of SubModule_Use_Bundle.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/summertian4/SubModule_Use_Bundle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "summertian4": "coderfish@163.com"
+  },
+  "source": {
+    "git": "https://github.com/summertian4/SubModule_Use_Bundle.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SubModule_Use_Bundle/Classes/**/*",
+  "resource_bundles": {
+    "SubModule_Use_Bundle": [
+      "SubModule_Use_Bundle/Assets/*.xcassets"
+    ]
+  }
+}
