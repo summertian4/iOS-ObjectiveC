@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xip-az-2CQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Mj8-ZH-QcR">
+            <objects>
+                <viewController id="xip-az-2CQ" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c3G-si-5Uv"/>
+                        <viewControllerLayoutGuide type="bottom" id="7fl-j8-rYL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ehk-1R-7so">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYf-in-xWK">
+                                <rect key="frame" x="119.5" y="318.5" width="136" height="30"/>
+                                <state key="normal" title="打开 Pod 库中的 VC"/>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="xip-az-2CQ" eventType="touchUpInside" id="q1G-fM-SlA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="此 Demo 使用 resource_bundles 声明的库" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09b-Xy-4pY">
+                                <rect key="frame" x="28" y="70" width="319.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gYf-in-xWK" firstAttribute="centerY" secondItem="Ehk-1R-7so" secondAttribute="centerY" id="B7q-UP-coN"/>
+                            <constraint firstItem="gYf-in-xWK" firstAttribute="centerX" secondItem="Ehk-1R-7so" secondAttribute="centerX" id="FJa-c1-Hl2"/>
+                            <constraint firstItem="09b-Xy-4pY" firstAttribute="top" secondItem="c3G-si-5Uv" secondAttribute="bottom" constant="50" id="VzC-8J-8yY"/>
+                            <constraint firstItem="09b-Xy-4pY" firstAttribute="centerX" secondItem="Ehk-1R-7so" secondAttribute="centerX" id="bU7-Wy-kLH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZqS-45-DeR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A5U-3G-GXO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="433"/>
+        </scene>
+    </scenes>
+</document>
