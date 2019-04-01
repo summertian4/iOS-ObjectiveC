@@ -1,0 +1,6 @@
+framework module ZLYTestFramework {
+  umbrella header "ZLYTestFramework.h"
+
+  export *
+  module * { export * }
+}
