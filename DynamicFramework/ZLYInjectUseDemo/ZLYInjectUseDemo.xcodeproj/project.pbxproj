@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82CA7E9122520633003C856C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CA7E9022520633003C856C /* AppDelegate.m */; };
+		82CA7E9422520633003C856C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CA7E9322520633003C856C /* ViewController.m */; };
+		82CA7E9722520633003C856C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CA7E9522520633003C856C /* Main.storyboard */; };
+		82CA7E9922520634003C856C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CA7E9822520634003C856C /* Assets.xcassets */; };
+		82CA7E9C22520634003C856C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CA7E9A22520634003C856C /* LaunchScreen.storyboard */; };
+		82CA7E9F22520634003C856C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CA7E9E22520634003C856C /* main.m */; };
+		82CA7EA922520634003C856C /* ZLYInjectUseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CA7EA822520634003C856C /* ZLYInjectUseDemoTests.m */; };
+		82CA7EB422520634003C856C /* ZLYInjectUseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CA7EB322520634003C856C /* ZLYInjectUseDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82CA7EA522520634003C856C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82CA7E8422520633003C856C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82CA7E8B22520633003C856C;
+			remoteInfo = ZLYInjectUseDemo;
+		};
+		82CA7EB022520634003C856C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82CA7E8422520633003C856C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82CA7E8B22520633003C856C;
+			remoteInfo = ZLYInjectUseDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82CA7E8C22520633003C856C /* ZLYInjectUseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLYInjectUseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CA7E8F22520633003C856C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82CA7E9022520633003C856C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82CA7E9222520633003C856C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82CA7E9322520633003C856C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82CA7E9622520633003C856C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82CA7E9822520634003C856C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82CA7E9B22520634003C856C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82CA7E9D22520634003C856C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CA7E9E22520634003C856C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82CA7EA422520634003C856C /* ZLYInjectUseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLYInjectUseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CA7EA822520634003C856C /* ZLYInjectUseDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLYInjectUseDemoTests.m; sourceTree = "<group>"; };
+		82CA7EAA22520634003C856C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CA7EAF22520634003C856C /* ZLYInjectUseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLYInjectUseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CA7EB322520634003C856C /* ZLYInjectUseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLYInjectUseDemoUITests.m; sourceTree = "<group>"; };
+		82CA7EB522520634003C856C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82CA7E8922520633003C856C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CA7EA122520634003C856C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CA7EAC22520634003C856C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82CA7E8322520633003C856C = {
+			isa = PBXGroup;
+			children = (
+				82CA7E8E22520633003C856C /* ZLYInjectUseDemo */,
+				82CA7EA722520634003C856C /* ZLYInjectUseDemoTests */,
+				82CA7EB222520634003C856C /* ZLYInjectUseDemoUITests */,
+				82CA7E8D22520633003C856C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82CA7E8D22520633003C856C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82CA7E8C22520633003C856C /* ZLYInjectUseDemo.app */,
+				82CA7EA422520634003C856C /* ZLYInjectUseDemoTests.xctest */,
+				82CA7EAF22520634003C856C /* ZLYInjectUseDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82CA7E8E22520633003C856C /* ZLYInjectUseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				82CA7E8F22520633003C856C /* AppDelegate.h */,
+				82CA7E9022520633003C856C /* AppDelegate.m */,
+				82CA7E9222520633003C856C /* ViewController.h */,
+				82CA7E9322520633003C856C /* ViewController.m */,
+				82CA7E9522520633003C856C /* Main.storyboard */,
+				82CA7E9822520634003C856C /* Assets.xcassets */,
+				82CA7E9A22520634003C856C /* LaunchScreen.storyboard */,
+				82CA7E9D22520634003C856C /* Info.plist */,
+				82CA7E9E22520634003C856C /* main.m */,
+			);
+			path = ZLYInjectUseDemo;
+			sourceTree = "<group>";
+		};
+		82CA7EA722520634003C856C /* ZLYInjectUseDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				82CA7EA822520634003C856C /* ZLYInjectUseDemoTests.m */,
+				82CA7EAA22520634003C856C /* Info.plist */,
+			);
+			path = ZLYInjectUseDemoTests;
+			sourceTree = "<group>";
+		};
+		82CA7EB222520634003C856C /* ZLYInjectUseDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82CA7EB322520634003C856C /* ZLYInjectUseDemoUITests.m */,
+				82CA7EB522520634003C856C /* Info.plist */,
+			);
+			path = ZLYInjectUseDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82CA7E8B22520633003C856C /* ZLYInjectUseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CA7EB822520634003C856C /* Build configuration list for PBXNativeTarget "ZLYInjectUseDemo" */;
+			buildPhases = (
+				82CA7E8822520633003C856C /* Sources */,
+				82CA7E8922520633003C856C /* Frameworks */,
+				82CA7E8A22520633003C856C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLYInjectUseDemo;
+			productName = ZLYInjectUseDemo;
+			productReference = 82CA7E8C22520633003C856C /* ZLYInjectUseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82CA7EA322520634003C856C /* ZLYInjectUseDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CA7EBB22520634003C856C /* Build configuration list for PBXNativeTarget "ZLYInjectUseDemoTests" */;
+			buildPhases = (
+				82CA7EA022520634003C856C /* Sources */,
+				82CA7EA122520634003C856C /* Frameworks */,
+				82CA7EA222520634003C856C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82CA7EA622520634003C856C /* PBXTargetDependency */,
+			);
+			name = ZLYInjectUseDemoTests;
+			productName = ZLYInjectUseDemoTests;
+			productReference = 82CA7EA422520634003C856C /* ZLYInjectUseDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82CA7EAE22520634003C856C /* ZLYInjectUseDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CA7EBE22520634003C856C /* Build configuration list for PBXNativeTarget "ZLYInjectUseDemoUITests" */;
+			buildPhases = (
+				82CA7EAB22520634003C856C /* Sources */,
+				82CA7EAC22520634003C856C /* Frameworks */,
+				82CA7EAD22520634003C856C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82CA7EB122520634003C856C /* PBXTargetDependency */,
+			);
+			name = ZLYInjectUseDemoUITests;
+			productName = ZLYInjectUseDemoUITests;
+			productReference = 82CA7EAF22520634003C856C /* ZLYInjectUseDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82CA7E8422520633003C856C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "周凌宇";
+				TargetAttributes = {
+					82CA7E8B22520633003C856C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					82CA7EA322520634003C856C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 82CA7E8B22520633003C856C;
+					};
+					82CA7EAE22520634003C856C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 82CA7E8B22520633003C856C;
+					};
+				};
+			};
+			buildConfigurationList = 82CA7E8722520633003C856C /* Build configuration list for PBXProject "ZLYInjectUseDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82CA7E8322520633003C856C;
+			productRefGroup = 82CA7E8D22520633003C856C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82CA7E8B22520633003C856C /* ZLYInjectUseDemo */,
+				82CA7EA322520634003C856C /* ZLYInjectUseDemoTests */,
+				82CA7EAE22520634003C856C /* ZLYInjectUseDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82CA7E8A22520633003C856C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CA7E9C22520634003C856C /* LaunchScreen.storyboard in Resources */,
+				82CA7E9922520634003C856C /* Assets.xcassets in Resources */,
+				82CA7E9722520633003C856C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CA7EA222520634003C856C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CA7EAD22520634003C856C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82CA7E8822520633003C856C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CA7E9422520633003C856C /* ViewController.m in Sources */,
+				82CA7E9F22520634003C856C /* main.m in Sources */,
+				82CA7E9122520633003C856C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CA7EA022520634003C856C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CA7EA922520634003C856C /* ZLYInjectUseDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CA7EAB22520634003C856C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CA7EB422520634003C856C /* ZLYInjectUseDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82CA7EA622520634003C856C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82CA7E8B22520633003C856C /* ZLYInjectUseDemo */;
+			targetProxy = 82CA7EA522520634003C856C /* PBXContainerItemProxy */;
+		};
+		82CA7EB122520634003C856C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82CA7E8B22520633003C856C /* ZLYInjectUseDemo */;
+			targetProxy = 82CA7EB022520634003C856C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82CA7E9522520633003C856C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CA7E9622520633003C856C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82CA7E9A22520634003C856C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CA7E9B22520634003C856C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82CA7EB622520634003C856C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82CA7EB722520634003C856C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82CA7EB922520634003C856C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYInjectUseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ZLYInjectUseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82CA7EBA22520634003C856C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYInjectUseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ZLYInjectUseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82CA7EBC22520634003C856C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYInjectUseDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ZLYInjectUseDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLYInjectUseDemo.app/ZLYInjectUseDemo";
+			};
+			name = Debug;
+		};
+		82CA7EBD22520634003C856C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYInjectUseDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ZLYInjectUseDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLYInjectUseDemo.app/ZLYInjectUseDemo";
+			};
+			name = Release;
+		};
+		82CA7EBF22520634003C856C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYInjectUseDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ZLYInjectUseDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZLYInjectUseDemo;
+			};
+			name = Debug;
+		};
+		82CA7EC022520634003C856C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = ZLYInjectUseDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ZLYInjectUseDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZLYInjectUseDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82CA7E8722520633003C856C /* Build configuration list for PBXProject "ZLYInjectUseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CA7EB622520634003C856C /* Debug */,
+				82CA7EB722520634003C856C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CA7EB822520634003C856C /* Build configuration list for PBXNativeTarget "ZLYInjectUseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CA7EB922520634003C856C /* Debug */,
+				82CA7EBA22520634003C856C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CA7EBB22520634003C856C /* Build configuration list for PBXNativeTarget "ZLYInjectUseDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CA7EBC22520634003C856C /* Debug */,
+				82CA7EBD22520634003C856C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CA7EBE22520634003C856C /* Build configuration list for PBXNativeTarget "ZLYInjectUseDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CA7EBF22520634003C856C /* Debug */,
+				82CA7EC022520634003C856C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82CA7E8422520633003C856C /* Project object */;
+}
